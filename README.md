@@ -1,48 +1,15 @@
-# IAI Paper Release Template
+# Limitations of Current Evaluation Practices for Conversational Recommender Systems and the Potential of User Simulation
 
-*The following document provides a template for a README file of a GitHub repository accompanying a paper. Instructions are typeset in italic and should be removed.*
-
-  * *Change the first line of this file to "# Paper Title in Camelcase"*
-
-This repository provides resources developed within the following article [[PDF](https://arxiv.org/abs/TODO_FIX_LINK)]:
-
-> A. Smith, B. Smith and C. Smith. **Paper title in Camelcase.** In: Proceedings or Journal details (series). Publisher. City, Country. Month 2018. [DOI: XX.XXXX/XXXXXXX.XXXXXXX](link to full DOI URL: http://*/XX.XXXX/XXXXXXX.XXXXXXX)
+This repository provides the prompts used in the paper **Limitations of Current Evaluation Practices for Conversational Recommender Systems and the Potential of User Simulation**.
 
 ## Summary
 
-*Here goes the summary of the work (the paper abstract is often a good starting point, but it can be extended/customized).*
+Research and development on conversational recommender systems (CRSs) critically depends on sound and reliable evaluation methodologies. However, the interactive nature of these systems poses significant challenges for automatic evaluation. This paper critically examines current evaluation practices for CRSs and identifies two key limitations: the over-reliance on static test collections and the inadequacy of existing evaluation metrics. To substantiate this critique, we analyze real user interactions with nine existing CRSs and demonstrate a striking disconnect between self-reported user satisfaction and the performance scores reported in prior literature.
+To address these limitations, this work explores the potential of user simulation to generate dynamic interaction data, offering a departure from static datasets. Furthermore, we propose novel evaluation metrics designed to better align with real user satisfaction. Our analysis of different simulation approaches provides valuable insights into their effectiveness and reveals promising initial results, showing improved correlation with system rankings compared to traditional evaluation methods. While these findings indicate a significant step forward in CRS evaluation, we also identify areas for future research and refinement in both simulation techniques and evaluation metrics.
 
-## Some title
+## Repository Structure
 
 This repository is structured as follows:
 
-- `directory_bla/`: bla bla.
-
-- `directory_ble/script_xyz.py`: ble ble Python script.
-
-- `directory_bli/abc.json`: a JSON file containing bli bli.
-
-### Maybe more sections or subsections
-
-Blu blu.
-
-## Citation
-
-If you use the resources presented in this repository, please cite:
-
-```
-@inproceedings{Lastname:YYYY:ABC,
-  author =    {...},
-  title =     {...},
-  booktitle = {Full proceedings title},
-  series =    {...},
-  year =      {...},
-  pages =     {...--...},
-  doi =       {XX.XXXX/XXXXXXX.XXXXXXX},
-  publisher = {ACM or Springer, usually; choose your faith}
-}
-```
-
-## Contact
-
-Should you have any questions, please contact `<some guy>` at `<some_actual_email_localpart>`[AT]uis.no (with [AT] replaced by @).
+  - `prompts/abus`: folder with prompts used for the agenda-based user simulator, ABUS.
+  - `prompts/llm-us`: folder with prompts used for the LLM-based user simulator, LLM-US.
