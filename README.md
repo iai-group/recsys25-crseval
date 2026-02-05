@@ -1,6 +1,8 @@
 # Limitations of Current Evaluation Practices for Conversational Recommender Systems and the Potential of User Simulation
 
-This repository provides the prompts used in the paper **Limitations of Current Evaluation Practices for Conversational Recommender Systems and the Potential of User Simulation**.
+This repository provides resources developed within the following article [[PDF](https://dl.acm.org/doi/pdf/10.1145/3767695.3769478)]:
+
+> Nolwenn Bernard and Krisztian Balog. 2025. Limitations of Current Evaluation Practices for Conversational Recommender Systems and the Potential of User Simulation. In Proceedings of the 2025 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2025). Association for Computing Machinery, New York, NY, USA, 261–271. [DOI: 10.1145/3767695.3769478](https://doi.org/10.1145/3767695.3769478)
 
 ## Summary
 
@@ -13,3 +15,24 @@ This repository is structured as follows:
 
   - `prompts/abus`: folder with prompts used for the agenda-based user simulator, ABUS.
   - `prompts/llm-us`: folder with prompts used for the LLM-based user simulator, LLM-US.
+
+## Citation
+
+If you use the resources presented in this repository, please cite:
+
+```bibtex
+@inproceedings{Bernard:2025:SIGIRAP,
+  author = {Bernard, Nolwenn and Balog, Krisztian},
+  title = {Limitations of Current Evaluation Practices for Conversational Recommender Systems and the Potential of User Simulation},
+  year = {2025},
+  doi = {10.1145/3767695.3769478},
+  booktitle = {Proceedings of the 2025 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region},
+  pages = {261--271},
+  series = {SIGIR-AP '25},
+  publisher = {Association for Computing Machinery},
+}
+```
+
+## Contact
+
+Should you have any questions, please contact Nolwenn Bernard at [nolwenn-bernard@th-koeln.de](mailto:nolwenn-bernard@th-koeln.de).
